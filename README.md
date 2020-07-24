@@ -1,8 +1,8 @@
 # PreCalc-Bresenhams
-The entire precalc factorization of the Bresenham's line algorithm... unfortunately slower.
+I call it PreCalc'd to Hell Bresenhams, or PCHB. The entire precalc factorization of the Bresenham's line algorithm... unfortunately slower.
 
 ```C++
-void bresenprecalcA(int x1, int y1, int x2, int y2) {
+void PCHB(int x1, int y1, int x2, int y2) {
     int dx = x2 - x1, dy = y2 - y1,
         // dxyA is the sign of the quadrant xy delta.
         dxA = sgn(dx), dyA = sgn(dy),
