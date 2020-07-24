@@ -44,5 +44,5 @@ void bresenprecalcA(int x1, int y1, int x2, int y2) {
         //draw_point(xx, yy);
         if (x2 == x1 && y2 == y1) break;
     };
-}
+};
 ```
