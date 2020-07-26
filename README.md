@@ -16,7 +16,7 @@ void pchb(int x1, int y1, int x2, int y2) {
     int er2 = yxm - xym,
         er = yxm - (xym>>1);
    
-    for(int i = 0;i<xym;i++) {
+    for(;x1!=x2 || y1!=y2;) {
         if (er >= 0) {
             x1 += dxA;
             y1 += dyA;
