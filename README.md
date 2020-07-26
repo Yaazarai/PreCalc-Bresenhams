@@ -1,5 +1,5 @@
 # PreCalc-Bresenhams
-I call it PreCalc'd to Hell Bresenhams, or PCHB. The entire precalc factorization of the Bresenham's line algorithm... unfortunately slower. This one is hard to explain... Lots of refactoring and pre-calc'ing.
+I call it PreCalc'd to Hell Bresenhams, or PCHB. The entire precalc factorization of the Bresenham's line algorithm... This one is hard to explain... Lots of refactoring and pre-calc'ing.
 ```C++
 void pchb(int x1, int y1, int x2, int y2) {
     int dx = x2 - x1, dy = y2 - y1,
