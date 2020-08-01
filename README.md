@@ -15,7 +15,8 @@ void pchb(int x1, int y1, int x2, int y2) {
 
     int er2 = yxm - xym,
         er = yxm - (xym>>1);
-   
+    
+    // draw starting pixel (x1,y1).
     for(;x1!=x2 || y1!=y2;) {
         if (er >= 0) {
             x1 += dxA;
@@ -26,6 +27,8 @@ void pchb(int x1, int y1, int x2, int y2) {
             y1 += ym;
             er += yxm;
         }
+        
+        // draw current pixel (x1,y1).
     }
 };
 ```
